@@ -1,0 +1,8 @@
+mysql:
+  dsn: "root:@tcp(127.0.0.1:3306)/mini_douyin?charset=utf8mb4&parseTime=True&loc=Local"
+redis:
+  addr: "127.0.0.1:6379"
+  password: ""
+  db: 0
+jwt:
+  secret: "your_jwt_secret" 
